@@ -1,2 +1,2 @@
-provider "aws" { credentials = "$(file("account.json")}" project = "${var.project_name}" region = "${var.region}" } 
+provider "aws" { credentials = "$(file("packer1.json")}" project = "${var.project_name}" region = "${var.region}" } 
 
